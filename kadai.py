@@ -14,7 +14,6 @@ def Filefind(path, extension):
 
 
 error_message = '引数にパスと拡張子を入力してください'
-home_directory = os.path.expanduser('~/univ_lesson/*')
 
 #fileをコマンドラインから実行時に、調べたいディレクトリのpathと拡張子を入れることで、それぞれfind_directoryとfind_extensionに格納
 if(len(sys.argv) == 3):
